@@ -1,0 +1,3 @@
+﻿use_case_id,use_case,script,column1,column2,data1,data2,value1,value2,enable
+1,Validate flight code,check_validate_flight_code.py,flight_code,valid_flight_code,flair_flightdata.csv,valid_flight_codes.csv,,,Y
+2,Test for outliers,check_outliers.py,flight_gross_fare,,flair_flightdata.csv,,5,,Y

@@ -1,0 +1,3 @@
+id,use_case,script,column1,data1,data2,value1,value2,pass_fail,result_value,error_message
+1,Test if numeric,check_field_is_numeric.py,flight_code,flair_flightdata.csv,,,,PASS,f8120,DATA CHECK ISSUED PASS
+2,Test for outliers,check_outliers.py,gross_fare,flair_flightdata.csv,,5.0,,FAIL,Number of outliers:10 : Max Number of Outliers5,DATA CHECK ISSUED FAIL

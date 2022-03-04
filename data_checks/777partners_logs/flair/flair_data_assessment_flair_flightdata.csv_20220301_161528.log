@@ -1,0 +1,17 @@
+2022-03-01 16:15:28 - 777partners_data_assessment_flair_flightdata.csv - INFO - PID:17420 - Loaded: flair_checklist.csv
+
+2022-03-01 16:15:28 - 777partners_data_assessment_flair_flightdata.csv - INFO - PID:17420 - Starting execution of 2 data assessment checks splitting 1 into max batch size of 50 checks
+2022-03-01 16:15:28 - 777partners_data_assessment_flair_flightdata.csv - INFO - PID:17420 - Starting - batch 1 of 1 batches
+
+2022-03-01 16:15:29 - 777partners_data_assessment_Id:1_script:check_field_is_numeric.py - INFO - PID:12172 - Submitting script: Id:1 Script:check_field_is_numeric.py Col:flight_code
+2022-03-01 16:15:29 - 777partners_data_assessment_Id:2_script:check_outliers.py - INFO - PID:27196 - Submitting script: Id:2 Script:check_outliers.py Col:gross_fare
+2022-03-01 16:15:30 - 777partners_data_assessment_Id:1_script:check_field_is_numeric.py - INFO - PID:12172 - DATA CHECK ISSUED PASS: Id:1 Script:check_field_is_numeric.py
+2022-03-01 16:15:30 - 777partners_data_assessment_Id:2_script:check_outliers.py - INFO - PID:27196 - DATA CHECK ISSUED PASS: Id:2 Script:check_outliers.py
+2022-03-01 16:15:30 - 777partners_data_assessment_Id:1_script:check_field_is_numeric.py - INFO - PID:12172 - CLOSE LOG: log_remove_handlers: Removing all existing log handlers
+2022-03-01 16:15:30 - 777partners_data_assessment_Id:2_script:check_outliers.py - INFO - PID:27196 - CLOSE LOG: log_remove_handlers: Removing all existing log handlers
+2022-03-01 16:15:30 - 777partners_data_assessment_flair_flightdata.csv - INFO - PID:17420 - Ending - batch 1 of 1 batches
+
+2022-03-01 16:15:30 - 777partners_data_assessment_flair_flightdata.csv - INFO - PID:17420 - SAVING RESULTS: DATA FILE:flair_flightdata.csv BATCH:1: 2 results.
+2022-03-01 16:15:30 - 777partners_data_assessment_flair_flightdata.csv - INFO - PID:17420 - SAVED RESULTS: File:C:\Users\simon\Documents\py_projects\data_checks\data_checks\777partners_out\flair\flair_data_assessment_results_datafile_flair_flightdata.csv_batch_1_20220301_161530.csv.
+2022-03-01 16:15:30 - 777partners_data_assessment_flair_flightdata.csv - INFO - PID:17420 - END OF EXECUTION OF BATCH 1: Duration: 00:00:01 - 2 data assessment checks executed in with 2 passes and 0 failures
+2022-03-01 16:15:30 - 777partners_data_assessment_flair_flightdata.csv - INFO - PID:17420 - CLOSE LOG: log_remove_handlers: Removing all existing log handlers
